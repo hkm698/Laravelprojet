@@ -6,16 +6,27 @@
 
 
 
-    <title>Bienvenue</title>
+    <title>Cats</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 
 <body>
-    <h1>BIEN ?</h1>
 
-    Bonjour {{$username}},
-    Ton mdp est {{$password}}
+<tr>
+<h1>Chat 1</h1>
+</tr>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Price</th>
+        <th>Name</th>
+        <th>Desc</th>
+        <th>Birth_date</th>
+    </tr>
+
+</table>
 
 </body>
 </html>

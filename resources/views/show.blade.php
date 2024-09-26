@@ -6,16 +6,20 @@
 
 
 
-    <title>Bienvenue</title>
+    <title>Cats</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 
 <body>
-    <h1>BIEN ?</h1>
 
-    Bonjour {{$username}},
-    Ton mdp est {{$password}}
+<h1>SHOW ID</h1>
+
+    <p> {{ $cat -> id }}</p>
+    <p> {{ $cat -> name }}</p>
+    <p> {{ $cat -> price }}</p>
+    <p> {{ $cat -> desc }}</p>
+    <p> {{ $cat -> birth_date }}</p>
 
 </body>
 </html>
